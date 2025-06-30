@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Arts Materials Shopping</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/b1ad144711.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <div>
+        <!--Header Section-->
+            <header class="navi">
+                <div class="logo">
+                    <a href="index.html">k-Arts</a>
+                </div>
+                <div id="search-bar">
+                    <form id="search--bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" id="s1" placeholder="Search product...">
+                    </form>
+                </div>
+                <div id="navi-links">
+                    <ul>
+                        <li><a href="explore.html" class="active">Explore</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="login.html">Log In</a></li>
+                        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                    </ul>
+                </div>
+                <div id="mobile">
+                    <i id="bar" class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+        <!-- Header end -->
+
+        <!--Background-img container-->
+            <div id="container--LDZkm">
+                <img src="./images/bg_img_explore2.jpg">
+            </div>
+        <!--Background-img container end-->
+
+        <!--Main Body Section-->
+            <div id="main-section">
+                <!--Aside Section-->
+                    <aside id="aside-section">
+                        <div class="wrapper">
+                            <h4>Price Range:</h4>
+                            <div class="price-input">
+                                <div class="field">
+                                    <span>Min</span>
+                                    <input type="number" class="input-min" value="500" min="100" max="4850">
+                                </div>
+                                <div class="separator">-</div>
+                                <div class="field">
+                                    <span>Max</span>
+                                    <input type="number" class="input-max" value="4500"  min="150" max="5000">
+                                </div>  
+                            </div>
+                            <div id="slider">
+                                <div class="progress"></div>
+                            </div>
+                            <div class="range-input">
+                                <input type="range" class="range-min" min="100" max="5000" value="500">
+                                <input type="range" class="range-max" min="100" max="5000" value="4500">
+                            </div>
+                        </div>
+                        <div id="category-section">
+                            <h4>Category:</h4>
+                            <div class="categories">
+                                <a href="paints.html"><button type="button" class="btn btn-outline-secondary">Paints</button></a>
+                                <a href="surfaces.html"><button type="button" class="btn btn-outline-secondary">Surfaces</button></a>
+                                <a href="brushes.html"><button type="button" class="btn btn-outline-secondary">Brushes</button></a>
+                                <a href="drawing_illustration.html"><button type="button" class="btn btn-outline-secondary">Drawing & Illustration</button></a>
+                                <a href="sketching.html"><button type="button" class="btn btn-outline-secondary">Sketching</button></a>
+                                <a href="studio.html"><button type="button" class="btn btn-outline-secondary">Studio</button></a>
+                            </div>
+                        </div>
+                    </aside>
+                <!--Aside Section end-->
+                
+                <!--Products section-->
+                    <div id="product-section">
+                        <section id="sort-container">
+                            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                  <li class="breadcrumb-item active" aria-current="page"><span>Explore</span></li>
+                                </ol>
+                            </nav>
+                            <div id="sort-dropdown">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sort By
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                    <li><button class="dropdown-item" type="button">Featured</button></li>
+                                    <li><button class="dropdown-item" type="button">Price: Low to High</button></li>
+                                    <li><button class="dropdown-item" type="button">Price: High to Low</button></li>
+                                    <li><button class="dropdown-item" type="button">Avg. Customer Review</button></li>
+                                    <li><button class="dropdown-item" type="button">Newest Arrivals</button></li>
+                                    <li><button class="dropdown-item" type="button">Best Sellers</button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        <div>
+                            <div id="product1">
+                                <div id="new_arrival">
+                                    <div id="container">   
+                                        <div id="item">
+                                            <a href="product.html">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/face image/12_bi-color_pencils.jpg">
+                                                </div>
+                                                <div class="des">
+                                                    <p>Faber-Castell Bi-color pencils(Set of 12)<br>
+                                                    <span>135/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/drawing_illustration/Faber-Castell_Polychromos_Color_Pencil_Set.jpg" width="100%">
+                                                </div>
+                                                <div class="des">
+                                                    <p>Faber-Castell Polychromos Color Pencil Set (Pack of 120)<br>
+                                                    <span>25,197/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/face image/Ohuhu_Brush_Chisel_Markers_1.jpg" width="100%">
+                                                </div>
+                                                <div class="des">
+                                                    <p>Ohuhu Double Tipped Brush & Chisel Alcohol Markers(48+1 Set)<br>
+                                                    <span>2,609/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/face image/48_color_pencils.jpg" >
+                                                </div>
+                                                <div class="des">
+                                                    <p>Faber-Castell Buntstifte Color Pencils(Set of 48)<br>
+                                                    <span>400/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/face image/Wynhard_Sketch_Color_Pencil_1.jpg" width="100%">
+                                                </div>
+                                                <div class="des">
+                                                    <p>Wynhard Sketch Color Pencil(Set of 72)<br>
+                                                    <span>948/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/face image/BRUSTRO_Artists_Colour_Pencil_1 (1).jpg">
+                                                </div>
+                                                <div class="des">
+                                                    <p>BRUSTRO Artists Colour Pencil (Set of 72)<br>
+                                                    <span>2,047/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/face image/Derwent_Watercolour_Pencils_1.jpg">
+                                                </div>
+                                                <div class="des">
+                                                    <p>Derwent Watercolour Pencils Wooden Box (Set of 48) <br>
+                                                    <span>1,399/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/face image/Artios_Paint_Brush_1.jpg" width="100%">
+                                                </div>
+                                                <div class="des">
+                                                    <p>ARTIOS Paint Brush (15 Assorted Brushes)(Wood)<br>
+                                                    <span>895/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/surfaces/Brustro_wiro_bound_sketch_bk.jpg">
+                                                </div>
+                                                <div class="des">
+                                                    <p>BRUSTRO Artists Wiro Bound Sketch Book(A5 Size)(120 Pages|160 GSM)<br>
+                                                    <span>339/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/paints/BRUSTRO_Artists_Oil_Colour_Paint.jpg" width="100%">
+                                                </div>
+                                                <div class="des">
+                                                    <p>BRUSTRO Artists' Oil Colour Paint (18 Shades | 12ml tubes)<br>
+                                                    <span>835/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/surfaces/Art_Essentials_Toned_Sketch_bk.jpg">
+                                                </div>
+                                                <div class="des">
+                                                    <p>Art Essentials Toned Sketch Book(9x12 inch)(50 pg|120 GSM)<br>
+                                                    <span>730/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/drawing_illustration/Camel_Soft_Pastels.jpg" width="100%">
+                                                </div>
+                                                <div class="des">
+                                                    <p>Camel Soft Pastels (36 Shades) (Multicolor)<br>
+                                                    <span>550/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/paints/Ohuhu_Watercolor_Paint_Tubes.jpg" width="100%">
+                                                </div>
+                                                <div class="des">
+                                                    <p>Ohuhu Watercolor Paint Tubes(24 tubes|12 ml) (6 brushes included)<br>
+                                                    <span>898/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/studio/Brustro_Master_Multi-Function_Studio_Artists_Wood_Floor_Easel.jpg">
+                                                </div>
+                                                <div class="des">
+                                                    <p>Brustro Master Multi-Function Studio Artists Wood Floor Easel<br>
+                                                    <span>13,998/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/sketching/Wynhard_Drawing_Pencils_Shading_Pencils_Set.jpg" width="100%">
+                                                </div>
+                                                <div class="des">
+                                                    <p>Wynhard Sketching Set for Artists (35 Pcs)<br>
+                                                    <span>784/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                        <div id="item">
+                                            <a href="#">
+                                                <div class="product_img">
+                                                    <img src="./images/Products/drawing_illustration/Copic_Marker_72-Piece_Sketch_Set_A.jpg" width="100%">
+                                                </div>
+                                                <div class="des">
+                                                    <p>Copic Marker 72-Piece Sketch (Set A)<br>
+                                                    <span>28,795/-</span></p>
+                                                </div>
+                                                <a href="#cart"><i class="fa-solid fa-shopping-cart cart"></i></a>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <section id="pagination-container">
+                            <div id="pagination">
+                                <a class="disabled"><<</a>
+                                <a class="no-hover active">1</a>
+                                <a href="explore_2.html">2</a>
+                                <a href="explore_3.html">3</a>
+                                <a href="explore_2.html">>></a>
+                            </div>
+                        </section>
+                    </div>
+                <!--Products section end-->
+            </div>
+        <!--Main Body Section end-->
+        <!-- Footer -->
+            <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #45526e"
+            >
+                <!-- Grid container -->
+                <div class="container p-4 pb-0">
+                <!-- Section: Links -->
+                <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="mb-4 font-weight-bold">
+                        k-Arts
+                    </h6>
+                    <p>
+                        Unleash your creativity with quality that inspires. 
+                        At k-Arts, we believe every artist deserves the best 
+                        tools—crafted with care, delivered with passion.
+                    </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                    <p>
+                        <a href="paints.html" class="text-white">Paints</a>
+                    </p>
+                    <p>
+                        <a href="surfaces.html" class="text-white">Surfaces</a>
+                    </p>
+                    <p>
+                        <a href="brushes.html" class="text-white">Brushes</a>
+                    </p>
+                    <p>
+                        <a href="drawing_illustration.html" class="text-white">Drawing & Illustration</a>
+                    </p>
+                    <p>
+                        <a href="sketching.html" class="text-white">Sketching</a>
+                    </p>
+                    <p>
+                        <a href="studio.html" class="text-white">Studio</a>
+                    </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                        Useful links
+                    </h6>
+                    <p>
+                        <a href="login.html" class="text-white">Your Account</a>
+                    </p>
+                    <p>
+                        <a href="cart.html" class="text-white">Cart</a>
+                    </p>
+                    <p>
+                        <a href="about.html" class="text-white">About Us</a>
+                    </p>
+                    </div>
+
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <p><i class="fas fa-home mr-3"></i> Pune, Maharashtra, India</p>
+                    <p><i class="fas fa-envelope mr-3"></i> karts@gmail.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> +91 8975525110</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+
+                <hr class="my-3">
+
+                <!-- Section: Copyright -->
+                <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                    <!-- Copyright -->
+                    <div class="p-3">
+                        © 2024 Copyright:
+                        <a class="text-white" href="index.html"
+                        >K-Arts.com</a
+                        >
+                    </div>
+                    <!-- Copyright -->
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                    <!-- Facebook -->
+                    <a
+                        href="https://www.facebook.com/"
+                        class="btn btn-outline-light btn-floating m-1"
+                        class="text-white"
+                        role="button"
+                        ><i class="fab fa-facebook-f"></i
+                        ></a>
+
+                    <!-- Twitter -->
+                    <a
+                        href="https://x.com/i/flow/login"
+                        class="btn btn-outline-light btn-floating m-1"
+                        class="text-white"
+                        role="button"
+                        ><i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <!-- Google -->
+                    <a
+                        href="https://google.com"
+                        class="btn btn-outline-light btn-floating m-1"
+                        class="text-white"
+                        role="button"
+                        ><i class="fab fa-google"></i
+                        ></a>
+
+                    <!-- Instagram -->
+                    <a
+                        href="https://www.instagram.com/accounts/login/?hl=en"
+                        class="btn btn-outline-light btn-floating m-1"
+                        class="text-white"
+                        role="button"
+                        ><i class="fab fa-instagram"></i
+                        ></a>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                </section>
+                <!-- Section: Copyright -->
+                </div>
+                <!-- Grid container -->
+            </footer>
+        <!-- Footer end -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
